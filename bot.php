@@ -16,7 +16,7 @@ file_put_contents($url);
 */
 ?>
 
-$URL="https://mahdivl.github.io/site/bot/";
+$URL="https://mahdivl.github.io/site/bot.php";
 $token="";
 $url="https://api.telegram.org/bot".$token."/setwebhook?url=".$URL;
 $result=file_get_contents($url);
